@@ -51,7 +51,23 @@
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/image1.jpg); background-size: cover; width: 50%; height: 300px;" width="50%">
+	          	<div class="one-third js-fullheight order-md-last img img-speciale" style="background-image:url(images/image1.jpg); background-size: cover; 
+				@media(min-width: 100px) and (max-width: 576px) { 
+					width: 100%;
+					height: 100%;
+				}
+				@media (min-width: 577px) and (max-width: 768px){
+					width: 100%;
+					height: 80%;
+				}
+				@media (min-width: 769px){ 
+					background-image:url(images/image3.jpg);
+					background-size: cover;
+					width: 50%;
+					height: 300px;
+					opacity: 0;
+				}
+				">
 	          		<div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -70,7 +86,21 @@
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-				<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/image2.jpg); background-size: cover; width: 50%; height: 300px;" width="50%">
+				<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/image2.jpg); background-size: cover;
+				@media(min-width: 100px) and (max-width: 576px) { 
+					width: 100%;
+					height: 100%;
+				}
+				@media (min-width: 577px) and (max-width: 768px){
+					width: 100%;
+					height: 80%;
+				}
+				@media (min-width: 769px){ 
+					width: 50%;
+					height: 300px;
+					opacity: 0;
+				}
+				">
 					<div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -328,10 +358,13 @@
 
 					</div>
 				</div>
+				
 			</div>
 
 		</section>
-		<button  class="btn btn-primary py-3 px-5"  onclick="window.open('../page1/index.html', '_blank')" style="z-index: 1 !important; position: absolute; left: 43%; top: 935%;">Visiter</button>
+		<button  class="btn btn-primary py-3 px-5 "  onclick="window.open('../page1/index.html', '_blank')" 
+		style=" margin-top: 5%; margin: 30%; "
+		>Visiter</button>
 
 
 		
