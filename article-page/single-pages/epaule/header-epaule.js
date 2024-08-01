@@ -9,7 +9,7 @@ let str=`<nav class="s-header__nav-wrap">
                 <ul class="sub-menu">
                     <li><a href="pathologie-de-la-coiffe.html">Pathologies de la coiffe des rotateurs</a></li>
                     <li><a href="linstabilite-de-lepaule.html">L’instabilité de l’épaule</a></li>
-                    <li><a href="category.html">Prothèse de l’épaule et arthrose</a></li>
+                    <li><a href="prothese-de-lepaule.html">Prothèse de l’épaule et arthrose</a></li>
                     <li><a href="category.html">Butée d’épaule sous arthroscopie</a></li>
                 </ul>
             </li>
