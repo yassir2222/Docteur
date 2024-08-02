@@ -5368,7 +5368,7 @@ body.search-is-visible .s-header__search-inner {
     }
 }
 
-#image1 , #image2, #image3{
+#image1 , #image2, #image3,#image6{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -5385,7 +5385,7 @@ body.search-is-visible .s-header__search-inner {
         width: 200px;
           
      }
-     #image3 {
+     #image3,#image6 {
         width: 300px;
           
      }
