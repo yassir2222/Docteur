@@ -16,7 +16,7 @@ let str=`<nav class="s-header__nav-wrap">
             <li class="has-children">
                 <a href="#0" title="" class="">Main</a>
                 <ul class="sub-menu">
-                    <li><a href="category.html">PROTHÈSE DE POUCE</a></li>
+                    <li><a href="../main/prothese-de-pouce.html">prothése de pouce</a></li>
                     <li><a href="category.html">ENDOSCOPIE DU CANAL CARPIEN</a></li>
                     <li><a href="category.html">CHIRURGIE DE LA MALADIE DE DUPUYTREN</a></li>
                     <li><a href="category.html">CHIRURGIE DE LA TENDINITE DE QUERVAIN</a></li>
