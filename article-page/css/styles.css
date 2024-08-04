@@ -5373,7 +5373,7 @@ body.search-is-visible .s-header__search-inner {
     margin-left: auto;
     margin-right: auto;
 }
-#image4{
+#image4,#image15{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -5385,6 +5385,7 @@ body.search-is-visible .s-header__search-inner {
     margin-right: auto;
     width: 700px;  
 }
+
 @media (max-width: 500px) {
     #image1 ,#image2,#image4 {
         width: 200px;

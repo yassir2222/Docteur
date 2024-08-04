@@ -16,12 +16,12 @@ let str=`<nav class="s-header__nav-wrap">
             <li class="has-children">
                 <a href="#0" title="" class="">Main</a>
                 <ul class="sub-menu">
-                    <li><a href="prothese-de-pouce.html">Prothèse de Pouce</a></li>
-                    <li><a href="endoscopie-canal-carpien.html">Endoscopie Du Canal Carpien</a></li>
-                    <li><a href="maladie-de-dupytren.html"> Chirurgie De La Maladie De Dupuytren</a></li>
-                    <li><a href="tendinite-de-quervain.html">Chirurgie De La Tendinite De Quervain</a></li>
-                    <li><a href="doigt-a-ressaut.html">Chirurgie Du Doigt À Ressaut</a></li>
-                    <li><a href="kyste-synovial.html">Chirurgie Du Kyste Synovial</a></li>
+                    <li><a href="../main/prothese-de-pouce.html">Prothèse de Pouce</a></li>
+                    <li><a href="../main/endoscopie-canal-carpien.html">Endoscopie Du Canal Carpien</a></li>
+                    <li><a href="../main/maladie-de-dupytren.html"> Chirurgie De La Maladie De Dupuytren</a></li>
+                    <li><a href="../main/tendinite-de-quervain.html">Chirurgie De La Tendinite De Quervain</a></li>
+                    <li><a href="../main/doigt-a-ressaut.html">Chirurgie Du Doigt À Ressaut</a></li>
+                    <li><a href="../main/kyste-synovial.html">Chirurgie Du Kyste Synovial</a></li>
                 </ul>
             </li>
             <li class="has-children">
