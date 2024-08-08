@@ -3882,6 +3882,25 @@ body.search-is-visible .s-header__search-inner {
     margin      : 1.4rem 0;
     opacity     : 1;
     position    : relative;
+  
+    
+}
+@media screen and (min-width: 1000px) {
+    .hero__slider .swiper-pagination .swiper-pagination-bullet {
+        display     : block;
+        outline     : none;
+        font-weight : 300;
+        width       : auto;
+        height      : auto;
+        background  : transparent;
+        color       : var(--color-gray-12);
+        margin      : 1.4rem 0;
+        opacity     : 1;
+        position    : relative;
+        left: 47%;
+        top: 25%;
+        
+    }
 }
 
 .hero__slider .swiper-pagination .swiper-pagination-bullet::before {
