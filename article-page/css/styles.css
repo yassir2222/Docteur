@@ -4752,7 +4752,7 @@ body.search-is-visible .s-header__search-inner {
     }
 
     .s-footer__main {
-        margin-bottom : var(--vspace-1);
+        margin-bottom : 0;
     }
 
     .s-footer__social {
@@ -5447,4 +5447,10 @@ body.search-is-visible .s-header__search-inner {
         margin-right: auto;
           
      }
+}
+
+@media (max-width: 600px) {
+    .s-footer__main{
+        margin-bottom: 300px;
+    }
 }
