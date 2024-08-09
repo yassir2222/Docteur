@@ -65,8 +65,8 @@
   width: 100%;
   height: 100%;
   display: grid;
+  overflow: hidden;  
   align-items: flex-end;
-  overflow: hidden;
   transition: all .3s;
   z-index: var(--z-modal);
   visibility: hidden;
@@ -83,9 +83,7 @@
   text-align: center;
   padding: 3rem 2rem 2rem;
   border-radius: 1rem 1rem 0 0;
-  transition: all .3s;
-
-  /*=== Effect 1 ===*/
+  transition: all 1s;  /*=== Effect 1 ===*/
   transform: translateY(10%);
 
   /*=== Effect 2 ===*/
@@ -166,4 +164,9 @@
   .modal__img{
     width: 170px;
   }
+}
+
+  
+.hide{
+  display: none !important;
 }
