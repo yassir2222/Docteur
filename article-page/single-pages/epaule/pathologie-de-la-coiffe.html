@@ -17,10 +17,21 @@
     ================================================== -->
     <link rel="stylesheet" href="../../css/styles.css">
     <link rel="stylesheet" href="../../css/vendor.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  
+          <!--=============== CSS ===============-->
+
+<link rel="stylesheet" href="../../responsive-popup-modal-main/assets/css/styles.css"> 
 
     <!-- favicons
     ================================================== -->
-    <link rel="icon"  type="image/x-icon" href="../../../../logo2 - favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../logo2-favicon.png">
+
+    
     
 
 </head>
@@ -281,7 +292,35 @@
 
                     </div>
                 </div> <!-- end entry-wrap -->
-        </section> <!-- end s-content -->
+        </section>
+        <!-- pop UP page-->
+        <section class="modal container">
+            <button class="modal__button" id="open-modal">
+                Open Modal
+            </button>
+
+            <div class="modal__container" id="modal-container">
+                <div class="modal__content">
+                    <div class="modal__close close-modal" title="Close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <img src="../../responsive-popup-modal-main/assets/img/star-trophy.png" alt="" class="modal__img">
+
+                    <h1 class="modal__title">Good Job!</h1>
+                    <p class="modal__description">Click the button to close</p>
+
+                    <button class="modal__button modal__button-width">
+                        View status
+                    </button>
+
+                    <button class="modal__button-link close-modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </section> 
+        <!-- end s-content -->
 
 
         <!-- # site-footer
@@ -320,23 +359,21 @@
                         <div class="column lg-6">
                             <h4>Categories</h4>
                             <ul class="link-list">
-                                <li><a href="category.html">Lifestyle</a></li>
-                                <li><a href="category.html">Workplace</a></li>
-                                <li><a href="category.html">Inspiration</a></li>
-                                <li><a href="category.html">Design</a></li>
-                                <li><a href="category.html">Health</a></li>
-                                <li><a href="category.html">Photography</a></li>
+                                <li><a href="category.html">Épaule</a></li>
+                                <li><a href="category.html">Main</a></li>
+                                <li><a href="category.html">Hanche</a></li>
+                                <li><a href="category.html">Genou</a></li>
+                                <li><a href="category.html">chirurgie Du Sport</a></li>
                             </ul>
                         </div>
                         <div class="column lg-6">
-                            <h4>Site Links</h4>
+                            <h4>Liens Utiles</h4>
                             <ul class="link-list">
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.html">Accueil</a></li>
                                 <li><a href="category.html">Categories</a></li>
-                                <li><a href="category.html">Blog</a></li>
-                                <li><a href="about.html">About</a></li>
+                                <li><a href="category.html">Cabinet</a></li>
+                                <li><a href="about.html">Á propos de moi</a></li>
                                 <li><a href="about.html">Contact</a></li>
-                                <li><a href="#0">Terms & Policy</a></li>
                             </ul>
                         </div>
                     </div>
@@ -397,10 +434,12 @@
 
     <!-- Java Script
     ================================================== -->
+    
     <script src="header-epaule.js"></script>
-
+    <script src="../../responsive-popup-modal-main/assets/js/main.js"></script>
     <script src="../../js/main.js"></script>
     <script src="../../js/plugins.js"></script>
+    
 
 </body>
 </html>

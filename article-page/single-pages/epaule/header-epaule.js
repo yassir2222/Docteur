@@ -61,7 +61,7 @@ let str=`<nav class="s-header__nav-wrap">
                 </ul>
             </li>
             <li class="has-children">
-                <a href="#0" title="" class="">Sport Duchirurgie</a>
+                <a href="#0" title="" class="">chirurgie Du Sport </a>
                 <ul class="sub-menu">
                     <li><a href="category.html">Cheville</a></li>
                     <li><a href="category.html">Épaule</a></li>
