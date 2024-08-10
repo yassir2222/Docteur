@@ -48,20 +48,19 @@
   display: inline-block;
   background-color: var(--first-color);
   color: #FFF;
-  padding: 1rem 1.25rem;
-  border-radius: .5rem;
+  padding: .2rem 1.25rem;
+  border-radius: 1rem;
   transition: .3s;
+  font-weight: 900;
 }
 
-.modal__button:hover{
-  background-color: var(--first-color-alt);
-}
+
 
 .modal__container{
   position: absolute;
   top: 0;
   left: 0;
-  background-color: hsla(var(--hue), 18%, 75%, .8);
+  background-color: hsla(var(--hue), 18%, 75%, .9);
   width: 100%;
   height: 100%;
   display: grid;
@@ -81,13 +80,14 @@
   position: relative;
   background-color: var(--container-color);
   text-align: center;
-  padding: 3rem 2rem 2rem;
-  border-radius: 1rem 1rem 0 0;
-  transition: all 1s;  /*=== Effect 1 ===*/
+  padding: 0rem 0rem 0rem;
+  border-radius: 5%;
+  transition: all 2s;  /*=== Effect 1 ===*/
   transform: translateY(10%);
+  padding-bottom: 2%;
 
   /*=== Effect 2 ===*/
-  /* transform: scale(.5) translateY(10%); */
+   transform: scale(.1) translateY(10%);
 
   /*=== Effect 3 ===*/
   /* transform: rotateX(65deg) scale(.75) translateY(10%);
@@ -95,8 +95,9 @@
 }
 
 .modal__img{
-  width: 150px;
   margin-bottom: .75rem;
+  border-top-left-radius:5%;
+  border-top-right-radius:5%;
 }
 
 .modal__close{
@@ -112,9 +113,9 @@
 }
 
 .modal__title{
-  font-size: var(--big-font-size);
-  color: var(--title-color);
   font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 5%;
 }
 
 .modal__description{
@@ -127,10 +128,11 @@
 
 .modal__button-link{
   display: block;
-  margin: 1rem auto 0;
+  margin: 0.5rem auto 0;
   background-color: transparent;
   color: var(--first-color);
   font-weight: 500;
+  padding: 0rem 3rem;
 }
 
 /* Show modal */
@@ -155,18 +157,27 @@
 @media screen and (min-width: 576px){
   .modal__content{
     position: absolute;
-    top: 70%;
-    left: 35%;
-    width: 380px;
-    border-radius: 1.25rem;
-  }
+    top: 25%;
+    left: 30%;
+    width: 480px;
+    border-radius: 5%;
+    padding-bottom: 2%;
 
-  .modal__img{
-    width: 170px;
+    
   }
-}
+  .modal__button span{
+    left: 70%;
+  }
+ 
 
   
+}
+@media screen and (max-width: 577px){
+.modal__button span{
+  left: 80%;
+}
+}
+
 .hide{
   display: none !important;
 }

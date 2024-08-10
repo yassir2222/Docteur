@@ -108,17 +108,17 @@ img{
   text-align: center;
   padding: 3rem 2rem 2rem;
   border-radius: 1rem 1rem 0 0;
-  transition: all .3s;
+  transition: all 2s;
 
-  /*=== Effect 1 ===*/
-  transform: translateY(10%);
+  /*=== Effect 1 transform: translateY(10%); ===*/
+  
 
-  /*=== Effect 2 ===*/
-  /* transform: scale(.5) translateY(10%); */
+  /*=== Effect 2   ===*/
+  transform: scale(.5) translateY(10%);
 
-  /*=== Effect 3 ===*/
-  /* transform: rotateX(65deg) scale(.75) translateY(10%);
-  transform-origin: 50% 100%; */
+  /*=== Effect 3  transform: rotateX(65deg) scale(.75) translateY(10%);
+  transform-origin: 50% 100%;  ===*/
+ 
 }
 
 .modal__img{
@@ -167,11 +167,11 @@ img{
 }
 
 .show-modal .modal__content{
-  /*=== Effect 1 ===*/
-  transform: translateY(0);
+  /*=== Effect 1 transform: translateY(0); ===*/
+  
 
   /*=== Effect 2 ===*/
-  /* transform: scale(1) translateY(0); */
+  transform: scale(1) translateY(0); 
 
   /*=== Effect 3 ===*/
   /* transform: rotateX(0) scale(1) translateY(0); */
