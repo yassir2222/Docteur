@@ -5383,6 +5383,6 @@ body.search-is-visible .s-header__search-inner {
 
 @media (max-width: 600px) {
     .s-footer__main{
-        margin-bottom: 300px;
+        margin-bottom: 30px;
     }
 }
