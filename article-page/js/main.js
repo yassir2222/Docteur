@@ -1,15 +1,9 @@
-/* ===================================================================
- * Spurgeon 1.0.0 - Main JS
- *
- * ------------------------------------------------------------------- */
+
 
 (function(html) {
 
     'use strict';
 
-
-   /* preloader
-    * -------------------------------------------------- */
     const ssPreloader = function() {
 
         const siteBody = document.querySelector('body');
@@ -31,11 +25,7 @@
             });
         });
 
-    }; // end ssPreloader
-
-
-   /* mobile menu
-    * ---------------------------------------------------- */ 
+    }; 
     const ssMobileMenu = function() {
 
         const toggleButton = document.querySelector('.s-header__menu-toggle');
@@ -54,27 +44,24 @@
             scrollLock.getScrollState() ? scrollLock.disablePageScroll(mainNavWrap) : scrollLock.enablePageScroll(mainNavWrap);
         });
 
-        // open (or close) submenu items in mobile view menu. 
-        // close all the other open submenu items.
+       
         mainNav.addEventListener('click', function(e) {
 
-            //check if the right element clicked
+           
             if (!e.target.closest('.has-children')) return;
             else {
 
-                //check if element contains active class
                 if (!e.target.closest('.has-children').classList.contains('sub-menu-is-open')) {
 
                     parentMenus.forEach(function(current) {
                         current.classList.remove('sub-menu-is-open');
                     });
 
-                    // add is-active class on cliked accordion
+                   
                     e.target.closest('.has-children').classList.add('sub-menu-is-open');
 
                 } else {
 
-                    // remove is-active class on cliked accordion
                     e.target.closest('.has-children').classList.remove('sub-menu-is-open');
                 }
             }
@@ -83,7 +70,7 @@
         window.addEventListener('resize', function() {
 
             // above 1200px
-            if (window.matchMedia('(min-width: 1201px)').matches) {
+            if (window.matchMedia('(min-width: 2000px)').matches) {
                 if (siteBody.classList.contains('menu-is-open')) siteBody.classList.remove('menu-is-open');
                 if (toggleButton.classList.contains('is-clicked')) toggleButton.classList.remove('is-clicked');
                 if (!scrollLock.getScrollState()) scrollLock.enablePageScroll();
@@ -153,9 +140,6 @@
 
     }; // end ssSearch
 
-
-    /* masonry
-    * ------------------------------------------------------ */
     const ssMasonry = function() {
 
         const containerBricks = document.querySelector('.bricks-wrapper');
@@ -172,11 +156,7 @@
 
         });
 
-    }; // end ssMasonry
-
-
-   /* animate masonry elements if in viewport
-    * ------------------------------------------------------ */
+    }; 
     const ssAnimateBricks = function() {
 
         const animateBlocks = document.querySelectorAll('[data-animate-block]');

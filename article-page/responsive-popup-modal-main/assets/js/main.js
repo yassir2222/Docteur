@@ -1,11 +1,11 @@
 /*=============== SHOW MODAL ===============*/
 const tags =document.getElementById('tags')
-    const author =document.getElementById('author')
-    const postN=document.getElementById('post-nav')
-    const footer=document.getElementById('colophon')
-    const popUp=document.getElementById('modal')
-    const main=document.getElementById('main-section')
-    const header2=document.getElementById('header2')
+const author =document.getElementById('author')
+const postN=document.getElementById('post-nav')
+const footer=document.getElementById('colophon')
+const popUp=document.getElementById('modal')
+const main=document.getElementById('main-section')
+const header2=document.getElementById('header2')
   
 
     
@@ -71,6 +71,7 @@ function closeModal(){
     author.classList.remove('hide')
     footer.classList.remove('hide')
     main.classList.remove('hide')
+    postN.classList.remove('hide')
     modalContainer.classList.remove('show-modal')
     popUp.classList.add('hide')
 }
