@@ -29,7 +29,7 @@ let str=`<nav class="s-header__nav-wrap">
                 <ul class="sub-menu">
                     <li><a href="../colonne-vertebrale/Nevralgie-Cervico-Brachiale.html">Névralgie Cervico-Brachiale</a></li>
                     <li><a href="../colonne-vertebrale/myelopathie-cervico-arthrosique.html"> Myélopathie Cervico-Arthrosique</a></li>
-                    <li><a href="../colonne-vertebrale/canal-cervical-Arthosique.html">Canal Cervical Étroit</a></li>
+                    <li><a href="../colonne-vertebrale/canal-cervical-Étroit.html">Canal Cervical Étroit</a></li>
                     <li><a href="../colonne-vertebrale/chirurgie-du-canal-lombaire.html">Chirurgie Du Canal Lombaire Étroit</a></li>
                 </ul>
             </li>

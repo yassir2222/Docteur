@@ -5336,6 +5336,17 @@ body.search-is-visible .s-header__search-inner {
     margin-right: auto;
     width: 700px;  
 }
+#image18{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;  
+}
+.img-center{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
 
 @media (max-width: 500px) {
     #image1 ,#image2,#image4 {
