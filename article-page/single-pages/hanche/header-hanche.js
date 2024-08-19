@@ -36,17 +36,17 @@ let str=`<nav class="s-header__nav-wrap">
     
             <li class="has-children">
                 <a href="#0" title="" class="">Hanche</a>
-                  <ul class="sub-menu">
-                    <li><a href="../hanche/La-Prothese-Totale-De-La-Hanche.html">La Prothèse Totale De La Hanche</a></li>
-                    <li><a href="../hanche/Voie-Anterieure-Mini-Invasive.html">Prothèse De La Hanche Par Voie Antérieure Mini-Invasive</a></li>
-                    <li><a href="../hanche/Labrum-Sousarthroscopie-De-Hanche.html">Chirurgie Du Labrum Sousarthroscopie De Hanche</a></li>
-                    <li><a href="../hanche/Conflit-Femoro-Acetabulaire-De-Hanche-Sousarthroscopie.html">Chirurgie Du Conflit Femoro-Acétabulaire De Hanche Sousarthroscopie</a></li>
+                <ul class="sub-menu">
+                    <li><a href="La-Prothese-Totale-De-La-Hanche.html">La Prothèse Totale De La Hanche</a></li>
+                    <li><a href="Voie-Anterieure-Mini-Invasive.html">Prothèse De La Hanche Par Voie Antérieure Mini-Invasive</a></li>
+                    <li><a href="Labrum-Sousarthroscopie-De-Hanche.html">Chirurgie Du Labrum Sousarthroscopie De Hanche</a></li>
+                    <li><a href="Conflit-Femoro-Acetabulaire-De-Hanche-Sousarthroscopie.html">Chirurgie Du Conflit Femoro-Acétabulaire De Hanche Sousarthroscopie</a></li>
                 </ul>
             </li>
 
             <li class="has-children">
                 <a href="#0" title="" class="">Genou</a>
-                 <ul class="sub-menu">
+                <ul class="sub-menu">
                     <li><a href="../genou/Anatomie-Du-Genou.html">Anatomie Du Genou</a></li>
                     <li><a href="../genou/Arthrose-Genou-Gonarthrose.html">Arthrose Du Genou Ou Gonarthrose</a></li>
                     <li><a href="../genou/Pathologies-Ligamentaires.html">Pathologies Ligamentaires</a></li>

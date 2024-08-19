@@ -7,10 +7,10 @@ let str=`<nav class="s-header__nav-wrap">
             <li class="has-children">
                 <a href="#0" title="" class="">Épaule</a>
                 <ul class="sub-menu">
-                    <li><a href="pathologie-de-la-coiffe.html">Pathologies de la coiffe des rotateurs</a></li>
-                    <li><a href="linstabilite-de-lepaule.html">L’instabilité de l’épaule</a></li>
-                    <li><a href="prothese-de-lepaule.html">Prothèse de l’épaule et arthrose</a></li>
-                    <li><a href="Butee-depaule.html">Butée d’épaule sous arthroscopie</a></li>
+                    <li><a href="../epaule/pathologie-de-la-coiffe.html">Pathologies de la coiffe des rotateurs</a></li>
+                    <li><a href="../epaule/linstabilite-de-lepaule.html">L’instabilité de l’épaule</a></li>
+                    <li><a href="../epaule/prothese-de-lepaule.html">Prothèse de l’épaule et arthrose</a></li>
+                    <li><a href="../epaule/Butee-depaule.html">Butée d’épaule sous arthroscopie</a></li>
                 </ul>
             </li>
             <li class="has-children">
@@ -46,11 +46,11 @@ let str=`<nav class="s-header__nav-wrap">
 
             <li class="has-children">
                 <a href="#0" title="" class="">Genou</a>
-                 <ul class="sub-menu">
-                    <li><a href="../genou/Anatomie-Du-Genou.html">Anatomie Du Genou</a></li>
-                    <li><a href="../genou/Arthrose-Genou-Gonarthrose.html">Arthrose Du Genou Ou Gonarthrose</a></li>
-                    <li><a href="../genou/Pathologies-Ligamentaires.html">Pathologies Ligamentaires</a></li>
-                    <li><a href="../genou/Pathologies-Meniscales.html">Pathologies Méniscales</a></li>
+                <ul class="sub-menu">
+                    <li><a href="Anatomie-Du-Genou.html">Anatomie Du Genou</a></li>
+                    <li><a href="Arthrose-Genou-Gonarthrose.html">Arthrose Du Genou Ou Gonarthrose</a></li>
+                    <li><a href="Pathologies-Ligamentaires.html">Pathologies Ligamentaires</a></li>
+                    <li><a href="Pathologies-Meniscales.html">Pathologies Méniscales</a></li>
                 </ul>
             </li>
             <li class="has-children">
