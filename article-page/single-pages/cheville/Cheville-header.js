@@ -7,10 +7,10 @@ let str=`<nav class="s-header__nav-wrap">
             <li class="has-children">
                 <a href="#0" title="" class="">Épaule</a>
                 <ul class="sub-menu">
-                    <li><a href="pathologie-de-la-coiffe.html">Pathologies de la coiffe des rotateurs</a></li>
-                    <li><a href="linstabilite-de-lepaule.html">L’instabilité de l’épaule</a></li>
-                    <li><a href="prothese-de-lepaule.html">Prothèse de l’épaule et arthrose</a></li>
-                    <li><a href="Butee-depaule.html">Butée d’épaule sous arthroscopie</a></li>
+                    <li><a href="../epaule/pathologie-de-la-coiffe.html">Pathologies de la coiffe des rotateurs</a></li>
+                    <li><a href="../epaule/linstabilite-de-lepaule.html">L’instabilité de l’épaule</a></li>
+                    <li><a href="../epaule/prothese-de-lepaule.html">Prothèse de l’épaule et arthrose</a></li>
+                    <li><a href="../epaule/Butee-depaule.html">Butée d’épaule sous arthroscopie</a></li>
                 </ul>
             </li>
             <li class="has-children">
@@ -36,11 +36,11 @@ let str=`<nav class="s-header__nav-wrap">
     
             <li class="has-children">
                 <a href="#0" title="" class="">Hanche</a>
-                <ul class="sub-menu">
-                    <li><a href="La-Prothese-Totale-De-La-Hanche.html">La Prothèse Totale De La Hanche</a></li>
-                    <li><a href="Voie-Anterieure-Mini-Invasive.html">Prothèse De La Hanche Par Voie Antérieure Mini-Invasive</a></li>
-                    <li><a href="Labrum-Sousarthroscopie-De-Hanche.html">Chirurgie Du Labrum Sousarthroscopie De Hanche</a></li>
-                    <li><a href="Conflit-Femoro-Acetabulaire-De-Hanche-Sousarthroscopie.html">Chirurgie Du Conflit Femoro-Acétabulaire De Hanche Sousarthroscopie</a></li>
+                  <ul class="sub-menu">
+                    <li><a href="../hanche/La-Prothese-Totale-De-La-Hanche.html">La Prothèse Totale De La Hanche</a></li>
+                    <li><a href="../hanche/Voie-Anterieure-Mini-Invasive.html">Prothèse De La Hanche Par Voie Antérieure Mini-Invasive</a></li>
+                    <li><a href="../hanche/Labrum-Sousarthroscopie-De-Hanche.html">Chirurgie Du Labrum Sousarthroscopie De Hanche</a></li>
+                    <li><a href="../hanche/Conflit-Femoro-Acetabulaire-De-Hanche-Sousarthroscopie.html">Chirurgie Du Conflit Femoro-Acétabulaire De Hanche Sousarthroscopie</a></li>
                 </ul>
             </li>
 
@@ -55,9 +55,9 @@ let str=`<nav class="s-header__nav-wrap">
             </li>
             <li class="has-children">
                 <a href="#0" title="" class="">Cheville-Pied</a>
-              <ul class="sub-menu">
-                    <li><a href="../cheville-pied/Chirurgie-Cheville.html">Chirurgie De La Cheville</a></li>
-                    <li><a href="../cheville-pied/Pied-chirurgie.html">Pied Duchirurgie</a></li>
+                <ul class="sub-menu">
+                    <li><a href="Chirurgie-Cheville.html">Chirurgie De La Cheville</a></li>
+                    <li><a href="Pied-chirurgie.html">Pied Duchirurgie</a></li>
                 </ul>
             </li>
             <li class="has-children">

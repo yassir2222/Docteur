@@ -56,8 +56,11 @@ let str=`<nav class="s-header__nav-wrap">
             <li class="has-children">
                 <a href="#0" title="" class="">Cheville-Pied</a>
                 <ul class="sub-menu">
-                    <li><a href="category.html">Chirurgie De La Cheville</a></li>
-                    <li><a href="category.html">Pied Duchirurgie</a></li>
+                    <li><a href="../cheville-pied/Chirurgie-Cheville.html">Chirurgie De La Cheville</a></li>
+                    <li><a href="../cheville-pied/Pied-chirurgie.html">Pied Duchirurgie</a></li>
+                    <ul class="sub-menu">
+                        <li><a href="../cheville-pied/Chirurgie-Cheville.html">Chirurgie De La Cheville</a></li>
+                    </ul>
                 </ul>
             </li>
             <li class="has-children">
