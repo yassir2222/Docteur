@@ -1,9 +1,9 @@
 let head=document.getElementById("head");
 let str=`<nav class="s-header__nav-wrap">
-        <h3 class="s-header__nav-heading">Navigate to</h3>
+        <h3 class="s-header__nav-heading">Naviguer vers</h3>
     
         <ul class="s-header__nav">
-            <li class="current-menu-item"><a href="../../index.html" title="">Home</a></li>
+            <li class="current-menu-item"><a href="../../index.html" title="">Accueil</a></li>
             <li class="has-children">
                 <a href="#0" title="" class="">Épaule</a>
                 <ul class="sub-menu">
@@ -29,7 +29,7 @@ let str=`<nav class="s-header__nav-wrap">
                 <ul class="sub-menu">
                     <li><a href="../colonne-vertebrale/Nevralgie-Cervico-Brachiale.html">Névralgie Cervico-Brachiale</a></li>
                     <li><a href="../colonne-vertebrale/myelopathie-cervico-arthrosique.html"> Myélopathie Cervico-Arthrosique</a></li>
-                    <li><a href="../colonne-vertebrale/canal-cervical-Étroit.html">Canal Cervical Étroit</a></li>
+                    <li><a href="../colonne-vertebrale/canal-cervical-Arthosique.html">Canal Cervical Étroit</a></li>
                     <li><a href="../colonne-vertebrale/chirurgie-du-canal-lombaire.html">Chirurgie Du Canal Lombaire Étroit</a></li>
                 </ul>
             </li>
@@ -46,7 +46,7 @@ let str=`<nav class="s-header__nav-wrap">
 
             <li class="has-children">
                 <a href="#0" title="" class="">Genou</a>
-               <ul class="sub-menu">
+                <ul class="sub-menu">
                     <li><a href="../genou/Anatomie-Du-Genou.html">Anatomie Du Genou</a></li>
                     <li><a href="../genou/Arthrose-Genou-Gonarthrose.html">Arthrose Du Genou Ou Gonarthrose</a></li>
                     <li><a href="../genou/Pathologies-Ligamentaires.html">Pathologies Ligamentaires</a></li>
@@ -65,13 +65,13 @@ let str=`<nav class="s-header__nav-wrap">
               <li class="has-children">
                 <a href="#0" title="" class="">Pied</a>
                 <ul class="sub-menu">
-                    <li><a href="../pied/Hallux-Valgus.html">Opération de l’Hallux Valgus</a></li>
-                    <li><a href="../pied/Entorse-cheville.html">Entorse de cheville</a></li>
-                    <li><a href="../pied/Orteils-en-griffe.html">Orteils en griffe</a></li>
+                    <li><a href="Hallux-Valgus.html">Opération de l’Hallux Valgus</a></li>
+                    <li><a href="Entorse-cheville.html">Entorse de cheville</a></li>
+                    <li><a href="Orteils-en-griffe.html">Orteils en griffe</a></li>
                 </ul>
             </li>
             <li class="has-children">
-                <a href="#0" title="" class="">Sport Duchirurgie</a>
+                <a href="#0" title="" class="">chirurgie Du Sport </a>
                 <ul class="sub-menu">
                     <li><a href="category.html">Cheville</a></li>
                     <li><a href="category.html">Épaule</a></li>
