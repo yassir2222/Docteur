@@ -66,7 +66,7 @@ let str=`<nav class="s-header__nav-wrap">
                 <a href="#0" title="" class="">Pied</a>
                 <ul class="sub-menu">
                     <li><a href="Hallux-Valgus.html">Opération de l’Hallux Valgus</a></li>
-                    <li><a href="Entorse-cheville.html">Entorse de cheville</a></li>
+                    <li><a href="Nevrome-Morton.html">Névrome de Morton</a></li>
                     <li><a href="Orteils-en-griffe.html">Orteils en griffe</a></li>
                 </ul>
             </li>

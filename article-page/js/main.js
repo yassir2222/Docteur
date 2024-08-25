@@ -225,7 +225,11 @@
 
             slidesPerView: 1,
             effect: 'fade',
-            speed: 1000,
+            speed: 2000,
+            autoplay: {
+                delay: 3000, 
+                disableOnInteraction: true, // Keeps autoplay running even after user interaction
+            },
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true, 

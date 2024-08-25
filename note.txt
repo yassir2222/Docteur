@@ -1,0 +1,263 @@
+donner moit 20 mot clé pour le SEO a partire de cette page sous la form suivant : <a >Chirurgie de l’épaule</a> <a >Luxation de l’épaule</a
+
+donner la date 08/04/2023 sous la form mardi, 30 juillet 2024
+	expliquer et détaille cette paragraph :
+	reformer sous form htm
+**************************************************************************************************************************************************************************************************
+	changer complétement le style :
+	convertir en html:
+#############################################################################################################################
+Anatomie-Du-Genou.html
+Arthrose-Genou-Gonarthrose.html
+Pathologies-Ligamentaires.html
+Pathologies-Meniscales.html
+####################33333
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prothèse de l’épaule et arthrose</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="stylesheet" href="../../css/vendor.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  
+          <!--=============== CSS ===============-->
+
+    <link rel="stylesheet" href="../../responsive-popup-modal-main/assets/css/styles.css"> 
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../../logo2-favicon.png">
+
+</head>
+
+#############################################################################################################################################################
+<header id="masthead" class="s-header">
+
+            <div class="s-header__branding">
+                <p class="site-title">
+                    <a href="../../index.html" rel="home"><img loading="lazy" src="../../images/icons/logo2_noir_png.png" alt="" srcset="" width="70px" style="margin-top: 20%;"></a>
+                </p>
+            </div>
+            <div class="row s-header__navigation" id="head">
+
+            </div> <!-- end s-header__navigation -->
+
+            <div class="s-header__search">
+
+                <div class="s-header__search-inner">
+                    <div class="row">
+    
+                        <form role="search" method="get" class="s-header__search-form" action="#">
+                            <label>
+                                <span class="u-screen-reader-text">Search for:</span>
+                                <input type="search" class="s-header__search-field" placeholder="Search for..." value="" name="s" title="Search for:" autocomplete="off">
+                            </label>
+                            <input type="submit" class="s-header__search-submit" value="Search"> 
+                        </form>
+    
+                        <a href="#0" title="Close Search" class="s-header__search-close">Close</a>
+    
+                    </div> <!-- end row -->
+                </div> <!-- s-header__search-inner -->
+    
+            </div> <!-- end s-header__search -->
+
+            <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+            <a class="s-header__search-trigger" href="#">
+                <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.25 19.25L15.5 15.5M4.75 11C4.75 7.54822 7.54822 4.75 11 4.75C14.4518 4.75 17.25 7.54822 17.25 11C17.25 14.4518 14.4518 17.25 11 17.25C7.54822 17.25 4.75 14.4518 4.75 11Z"></path>
+                </svg>
+            </a>
+
+        </header> <!-- end s-header -->
+
+#############################################################################################################################################################
+ <span class="cat-links">
+	<a href="../../index.html">Accueil</a>
+	<a href="#0">Épaule</a>
+ </span>
+##########################################################################################################################										
+<a href="../../../page2/index.html">El Jazouli oualid</a> 
+
+##########################################################################3
+<header class="entry__header" id="header2">
+
+<section id="main-section">
+
+<p class="entry__tags" id="tags">
+
+<div class="entry__author-box" id="author">
+
+<div class="post-nav" id="post-nav">
+
+<footer id="colophon" class="s-footer">
+
+############################################################################################################################################################
+
+   <section class="modal container" id="modal">
+            <div class="modal__container" id="modal-container">
+                <div class="modal__content">
+                    <div class="modal__close close-modal" title="Close">
+                        <i class='bx bx-x'></i>
+                    </div>
+                    <img src="../../../page1/assets/images/image3.jpg" alt="" class="modal__img">
+                    
+                    <h2 class="modal__title">Prendre rendez-vous chez  <br><span- style="font-weight: 900;"> Dr. Eljazouli Oualid ! </span-></h2>
+                    <p style="font-size: 120%;" class="modal__description">Chirurgien traumatologue-orthopédiste</p>
+                    <button class="modal__button modal__button-width">
+                        <span style="font-size: 190%; position: absolute;"><i class='bx bxl-whatsapp'></i></span> Contactez-nous 
+                    </button>
+                    <button class="modal__button-link close-modal">
+                        fermer
+                    </button>
+                </div>
+            </div>
+        </section>
+
+##########################################################################################################################################################
+
+<script src="../../responsive-popup-modal-main/assets/js/main.js"></script>
+
+#################################################################################################################################333
+
+<footer id="colophon" class="s-footer">
+
+            <div class="row s-footer__subscribe">
+                <div class="column lg-12">
+
+                    <h2>
+                        Abonnez-vous !
+                    </h2>
+                    <p>
+                        Pour ne rien manquer de nos dernières actualités et conseils exclusifs .
+                    </p>
+
+                    <form id="mc-form" class="mc-form" action="https://formspree.io/f/xkgwbjbw"
+                    method="POST">
+                        <input type="email" name="EMAIL" id="mce-EMAIL" class="u-fullwidth text-center" placeholder="Votre adresse e-mail" title="The domain portion of the email address is invalid (the portion after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" required>
+                        <input type="submit" name="s’abonner" value="s’abonner" class="btn--small btn--primary u-fullwidth">
+                        <!-- <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cdb7b577e41181934ed6a6a44_9a91cfe7b3" tabindex="-1" value=""></div> -->
+                        <div class="mc-status"></div>
+                    </form>
+
+                </div>
+            </div> <!-- end s-footer__subscribe -->
+
+            <div class="row s-footer__main">
+
+                <div class="column lg-5 md-6 tab-12 s-footer__about">
+                   <a href="../../../page1/index.html"><img loading="lazy" src="../../images/icons/logo_noir_png.png" alt="" srcset=""></a> 
+                </div> <!-- end s-footer__about -->
+
+                <div class="column lg-5 md-6 tab-12">
+                    <div class="row row-footer">
+                        <div class="column lg-6">
+                            <h4>Categories</h4>
+                            <ul class="link-list">
+                                <li><a href="category.html">Épaule</a></li>
+                                <li><a href="category.html">Main</a></li>
+                                <li><a href="category.html">Hanche</a></li>
+                                <li><a href="category.html">Genou</a></li>
+                                <li><a href="category.html">chirurgie Du Sport</a></li>
+                            </ul>
+                        </div>
+                        <div class="column lg-6">
+                            <h4>Liens Utiles</h4>
+                            <ul class="link-list">
+                                <li><a href="index.html">Accueil</a></li>
+                                <li><a href="category.html">Categories</a></li>
+                                <li><a href="category.html">Cabinet</a></li>
+                                <li><a href="about.html">Á propos de moi</a></li>
+                                <li><a href="about.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- end s-footer__main -->
+
+            <div class="row s-footer__bottom " >
+
+                <div class="column lg-7 md-6 tab-12">
+                    <ul class="s-footer__social">
+                        <li>
+                            <a href="#0">
+                                <i class="uil uil-facebook" style="font-size: 200%;"></i>
+                                <span class="u-screen-reader-text">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <i class="uil uil-twitter" style="font-size: 200%;"></i>
+                                <span class="u-screen-reader-text">Twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <i class="uil uil-instagram" style="font-size: 200%;"></i>
+                                <span class="u-screen-reader-text">Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <i class="uil uil-linkedin" style="font-size: 200%;"></i>
+                                <span class="u-screen-reader-text">linkedin</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column lg-5 md-6 tab-12">
+                    <div class="ss-copyright">
+                        <span>&copy; Copyright El Jazouli Oualid 2024</span> 
+                        <span>Design by <a href="https://www.linkedin.com/in/lambrass-yassir/">Yassir Lambrass</a> </span>
+                    </div>
+                </div>
+
+            </div> <!-- end s-footer__bottom -->
+           
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">
+                    <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 10.25L12 4.75L6.75 10.25"/>
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 19.25V5.75"/>
+                    </svg>
+                </a>
+            </div> <!-- end ss-go-top -->
+
+        </footer><!-- end s-footer -->
+		
+#############################################################################################################3
+		  <div class="post-nav" id="post-nav">
+                                    <div class="post-nav__prev">
+                                        <a href="linstabilite-de-lepaule.html" rel="prev">
+                                            <span> <i class='bx bx-left-arrow-alt' ></i> précédent</span>
+                                            L'instabilité de l'épaule 
+                                        </a>
+                                    </div>
+                                    <div class="post-nav__next">
+                                        <a href="Butee-depaule.html" rel="next">
+                                            <span>suivant <i class='bx bx-right-arrow-alt'></i></span>
+                                            Butée d’épaule sous arthroscopie
+                                        </a>
+                                    </div>
+ </div>
+		
+##################################################################################################33
+id="final"
+
+###################################################################################################3
