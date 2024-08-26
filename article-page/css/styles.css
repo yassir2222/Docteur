@@ -5455,7 +5455,7 @@ body.search-is-visible .s-header__search-inner {
     color: white;
 }
 .card-front{
-    background: linear-gradient(#11111157,#1111116d), url("article-page/images/thumbs/masonry/image3.png");
+    background:url("/article-page/images/thumbs/masonry/image5.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5473,13 +5473,37 @@ body.search-is-visible .s-header__search-inner {
 
 }
 .card:nth-of-type(2)>.card-content>.card-front{
-    background:url("/article-page/images/thumbs/masonry/image2.png");
+    background:url("../images/thumbs/masonry/image2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .card:nth-of-type(3)>.card-content>.card-front{
-    background:  url("https://images.unsplash.com/photo-1559767180-47d8f4919e5d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGRlc2VydHxlbnwwfHwwfHx8MA%3D%3D");
+    background:  url("../images/thumbs/masonry/image7.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card:nth-of-type(4)>.card-content>.card-front{
+    background:  url("../images/thumbs/masonry/image11.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card:nth-of-type(5)>.card-content>.card-front{
+    background:  url("../images/thumbs/masonry/image12.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card:nth-of-type(6)>.card-content>.card-front{
+    background:  url("../images/thumbs/masonry/image14.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card:nth-of-type(7)>.card-content>.card-front{
+    background:  url("../images/thumbs/masonry/image16.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
