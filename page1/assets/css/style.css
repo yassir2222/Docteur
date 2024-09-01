@@ -900,8 +900,16 @@ address {
 .go-top:is(:hover, :focus) { opacity: 1; }
 
 
-
-
+#logo1{
+  z-index:4; 
+  margin-top: 0%;
+  width:70px;
+}
+#map{
+  width: 400px;
+  height: 300px;
+  border: 0px;
+}
 
 /*-----------------------------------*\
  * #MEDIA QUERIES
@@ -914,6 +922,8 @@ address {
 @media (min-width: 580px) {
 
   /**
+
+
    * REUSED STYLE
    */
 
@@ -1423,4 +1433,63 @@ address {
 	.review-card {
 		width: 85%;
 	}
+  
+  .video-container  {
+    display: none;
+  }
+  .gallery{
+    margin-top: 150%;
+  }
+  .container-header{
+    margin-top: 0;
+    padding-top: 0;
+    position: absolute;
+    top: 25%;
+    height: 55%;
+    background-color: #000;
+  }
+  .header{
+    background-color: #000;
+    
+  }
+  body{
+    background-color: #000;
+  }
+  .package{
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  #contact{
+    background-color: #ffedc6;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  #gallery{
+    background-color: #ffedc6;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  #typewriter{
+    font-size: 85%;
+  }
+  #main-title{
+    font-size: 80%;
+  }
+  #rdv-header{
+    font-size: 80%;
+    position: absolute;
+    left:50%;
+  }
+  #map{
+    width: 300px;
+    height: 200px;
+    border: 0px;
+    margin: 0 auto;
+    display:block;
+  }
+
+  .header-bottom .container{
+    justify-content: inherit;
+  }
 }

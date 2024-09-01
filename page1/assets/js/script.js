@@ -32,15 +32,17 @@ navToggleEvent(navLinks);
 
 const header = document.querySelector("[data-header]");
 const goTopBtn = document.querySelector("[data-go-top]");
-
+const logo = document.querySelector("#logo1");
 window.addEventListener("scroll", function () {
 
   if (window.scrollY >= 200) {
     header.classList.add("active");
     goTopBtn.classList.add("active");
+    logo.src = "assets/images/logo2_noir_png.png";
   } else {
     header.classList.remove("active");
     goTopBtn.classList.remove("active");
+    logo.src = "assets/images/logo2_blan_png.png";
   }
 
 });

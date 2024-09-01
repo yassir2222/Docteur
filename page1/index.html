@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tourly - Travel agancy</title>
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <title>Dr Oualid Eljazouli</title>
+  <link rel="shortcut icon" href="assets/images/logo2.png" type="image/svg+xml">
 
   <!-- 
     - custom css link
@@ -44,9 +44,9 @@
           </div>
 
           <div class="wrapper">
-            <p class="helpline-title">For Further Inquires :</p>
+            <p class="helpline-title"></p>
 
-            <p class="helpline-number">+01 (123) 4567 90</p>
+            <p class="helpline-number"></p>
           </div>
 
         </a>
@@ -71,36 +71,16 @@
     </div>
 
     <div class="header-bottom">
-      <div class="container">
-
-        <ul class="social-list">
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
+      <div class="container" >
+        <img id="logo1" src="assets/images/logo2_blan_png.png" alt=""  >
+       
 
         <nav class="navbar" data-navbar>
 
           <div class="navbar-top">
 
             <a href="#" class="logo">
-              <img src="./assets/images/logo-blue.svg" alt="Tourly logo">
+              <img src="assets/images/logo2_blan_png.png" alt="Dr logo">
             </a>
 
             <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
@@ -116,30 +96,32 @@
             </li>
 
             <li>
-              <a href="#" class="navbar-link" data-nav-link>about us</a>
+              <a href="#gallery" class="navbar-link" data-nav-link>galerie</a>
             </li>
 
             <li>
-              <a href="#destination" class="navbar-link" data-nav-link>destination</a>
+              <a href="#destination" class="navbar-link" data-nav-link> Spécialité</a>
             </li>
 
             <li>
-              <a href="#package" class="navbar-link" data-nav-link>packages</a>
+              <a href="#package" class="navbar-link" data-nav-link>Avis</a>
+            </li>
+
+            
+
+            <li>
+              <a href="#" class="navbar-link" data-nav-link>Â propos de moi</a>
             </li>
 
             <li>
-              <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
-            </li>
-
-            <li>
-              <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
+              <a href="#contact" class="navbar-link" data-nav-link>Contactez-nous</a>
             </li>
 
           </ul>
 
         </nav>
 
-        <button class="btn btn-primary">Book Now</button>
+        <button class="btn btn-primary" id="rdv-header">Prendre Rdv</button>
 
       </div>
     </div>
@@ -177,7 +159,7 @@
           <div class="btn-group">
             <button class="btn btn-primary">Prendre rdv</button>
 
-            <button class="btn btn-secondary">Â propos de moi</button>
+            <button class="btn btn-secondary" onclick="window.location.href='../page2/index.html'">Â propos de moi</button>
           </div>
 
         </div>
@@ -188,7 +170,7 @@
 
           <p class="section-subtitle">Bienvenue Au</p>
 
-          <h2 class="h2 section-title">Cabinet Dr. Oualid El Jazouli</h2>
+          <h2 class="h2 section-title " >Cabinet Dr. Oualid El Jazouli</h2>
 
           <p class="section-text">
             Nos offrant des soins de haute qualité, un excellent service client, et un espace très confortable, le cabinet du Dr. Oualid El Jazouli est dédié à améliorer la santé et le bien-être de nos patients
@@ -461,6 +443,28 @@
           </a>
           cabinet du Dr. Oualid El Jazouli, spécialisé en chirurgie orthopédique et traumatologique
           </p>
+          <br>
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+  
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+  
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+  
+          </ul>
 
         </div>
 
@@ -498,7 +502,7 @@
 
         <div class="footer-form">
 
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13587.217365937566!2d-7.9996462!3d31.6392071!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafefebed817391%3A0xb4726f2fbb479719!2sDr%20El%20Jazouli%20Oualid%20-%20Traumatologue%20Orthop%C3%A9diste%20Marrakech!5e0!3m2!1sfr!2sma!4v1721682305137!5m2!1sfr!2sma" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>          <p class="footer-text">
+          <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13587.217365937566!2d-7.9996462!3d31.6392071!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafefebed817391%3A0xb4726f2fbb479719!2sDr%20El%20Jazouli%20Oualid%20-%20Traumatologue%20Orthop%C3%A9diste%20Marrakech!5e0!3m2!1sfr!2sma!4v1721682305137!5m2!1sfr!2sma" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>          <p class="footer-text">
 
 
         </div>
