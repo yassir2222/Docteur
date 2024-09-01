@@ -48,7 +48,7 @@ window.addEventListener("scroll", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-  const text = "oUALID eL jAZOULI";
+  const text = "el jazouli oualid";
   let index = 0;
   const speed = 130; //milliseconds
   const typewriterElement = document.getElementById("typewriter");
