@@ -22,6 +22,12 @@
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
     rel="stylesheet">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 
 <body id="top">
@@ -96,25 +102,25 @@
             </li>
 
             <li>
-              <a href="#gallery" class="navbar-link" data-nav-link>galerie</a>
+              <a href="#gallery2" class="navbar-link" data-nav-link>galerie</a>
             </li>
 
             <li>
-              <a href="#destination" class="navbar-link" data-nav-link> Spécialité</a>
+              <a href="#spec" class="navbar-link" data-nav-link> Spécialité</a>
             </li>
 
             <li>
-              <a href="#package" class="navbar-link" data-nav-link>Avis</a>
+              <a href="#avis" class="navbar-link" data-nav-link>Avis</a>
             </li>
 
             
 
             <li>
-              <a href="#" class="navbar-link" data-nav-link>Â propos de moi</a>
+              <a href="../page2/index.html" class="navbar-link" data-nav-link>Â propos de moi</a>
             </li>
 
             <li>
-              <a href="#contact" class="navbar-link" data-nav-link>Contactez-nous</a>
+              <a href="#contact3" class="navbar-link" data-nav-link>Contactez-nous</a>
             </li>
 
           </ul>
@@ -134,12 +140,13 @@
 
   <main>
     <article>
+      
 
       <!-- 
         - #HERO
       -->
 
-      <section class="hero" id="home">
+      <section class="hero" id="home" style="width: 90%;">
         <div class="video-container">
           <video autoplay muted loop>
             <source src="./assets/images/video1.mp4" type="video/mp4">
@@ -166,9 +173,40 @@
       </section>
 
       <section class="gallery" id="gallery">
+        <p class="section-subtitle" id="spec">â propos de </p>
+
+        <h2 class="h2 section-title " >Dr. Oualid El Jazouli</h2>
+        <div class="package-card docteur">
+
+          <figure class="card-banner" id="card-banner1">
+            <img src="./assets/images/image12.jpg" alt="Experience The Great Holiday On Beach" loading="lazy" >
+          </figure>
+
+          <div class="card-content">
+
+            <h2 class="h2 card-title">Dr. El Jazouli Oualid </h2>
+            <h3 lass="h3"> Spécialisé en :</h3>
+
+            <p class="card-text docteur-text" style="margin-left: 20px;">
+              <ul id="items">
+                <li><i class='bx bx-chevron-right'></i> Chirurgie Orthopédique</li>
+                <li> <i class='bx bx-chevron-right'></i> Chirurgie Traumatologique</li>
+                <li><i class='bx bx-chevron-right'></i> Chirurgie Arthroscopique</li>
+                <li><i class='bx bx-chevron-right'></i> Arthroplastie</li>
+                <li><i class='bx bx-chevron-right'></i> Médecine Du Sport</li>
+                <li><i class='bx bx-chevron-right'></i> Plasma Riche En Plaquettes (PRP)</li>
+              </ul>
+              
+            </p>
+            <br>
+            <button class="btn btn-primary" onclick="window.location.href='../page2/index.html'"><i class="uil uil-stethoscope"></i> Voir Plus <i class='bx bx-chevron-right'></i></button>
+
+          </div>
+        </div>
+
         <div class="container">
 
-          <p class="section-subtitle">Bienvenue Au</p>
+          <p class="section-subtitle" id="gallery2">Bienvenue Au</p>
 
           <h2 class="h2 section-title " >Cabinet Dr. Oualid El Jazouli</h2>
 
@@ -318,8 +356,7 @@
           </ul>
         </div>
       </section>
-
-
+      
 
 
 
@@ -338,7 +375,7 @@
       -->
 
       <section class="cta" id="contact">
-        <h2 class="" style="margin-left: 35%; font-size: 200%;" >Cabinet Dr. Oualid El Jazouli</h2>
+        <h2 class="" style="margin-left: 35%; font-size: 200%;" id="avis">Cabinet Dr. Oualid El Jazouli</h2>
 
         <div class="container">
 
@@ -470,10 +507,10 @@
 
         <div class="footer-contact">
 
-          <h4 class="contact-title">Contact Us</h4>
+          <h4 class="contact-title" id="contact3">Contactez-nous</h4>
 
           <p class="contact-text">
-            Feel free to contact and reach us !!
+            N’hésitez pas à nous contacter !!
           </p>
 
           <ul>
