@@ -9309,6 +9309,9 @@ textarea.form-control {
     .blog-entry {
       margin-bottom: 30px; } }
   @media (max-width: 767.98px) {
+    #image-big{
+      width: 80%;
+    }
     .blog-entry {
       margin-bottom: 30px; } }
   .blog-entry .text {
