@@ -5455,7 +5455,7 @@ body.search-is-visible .s-header__search-inner {
     color: white;
 }
 .card-front{
-    background:url("/article-page/images/thumbs/masonry/image5.png");
+    background:url("../images/thumbs/masonry/image5.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
