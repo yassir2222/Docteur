@@ -5520,3 +5520,28 @@ body.search-is-visible .s-header__search-inner {
 .card-body{
     transform: translateZ(7rem);
 }
+
+#middle{
+    overflow: hidden;
+    text-align: center;
+}
+#middle:before,
+#middle:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 4px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+#middle:before {
+    right: 0.5em;
+    margin-left: -50%;
+    width: 20%;
+}
+#middle:after {
+    left: 0.5em;
+    margin-right: -50%;
+    width: 20%;
+}

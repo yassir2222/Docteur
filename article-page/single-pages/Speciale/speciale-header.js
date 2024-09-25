@@ -29,7 +29,7 @@ let str=`<nav class="s-header__nav-wrap">
                 <ul class="sub-menu">
                     <li><a href="../colonne-vertebrale/Nevralgie-Cervico-Brachiale.html">Névralgie Cervico-Brachiale</a></li>
                     <li><a href="../colonne-vertebrale/myelopathie-cervico-arthrosique.html"> Myélopathie Cervico-Arthrosique</a></li>
-                    <li><a href="../colonne-vertebrale/canal-cervical-Arthosique.html">Canal Cervical Étroit</a></li>
+                    <li><a href="../colonne-vertebrale/canal-cervical-Étroit.html">Canal Cervical Étroit</a></li>
                     <li><a href="../colonne-vertebrale/chirurgie-du-canal-lombaire.html">Chirurgie Du Canal Lombaire Étroit</a></li>
                 </ul>
             </li>
@@ -71,25 +71,15 @@ let str=`<nav class="s-header__nav-wrap">
                 </ul>
             </li>
             <li class="has-children">
-                <a href="#0" title="" class="">chirurgie Du Sport </a>
+                <a href="#0" title="" class="">Médecine régénérative </a>
                 <ul class="sub-menu">
-                    <li><a href="category.html">Cheville</a></li>
-                    <li><a href="category.html">Épaule</a></li>
-                    <li><a href="category.html">Genou</a></li>
-                    <li><a href="category.html">Hanche</a></li>
+                    <li><a href="PRP.html"> Injections de PRP : Plasma Riche en Plaquettes</a></li>
+                    <li><a href="PRF.html"> Injections de PRF : Plasma Riche en Fibrines</a></li>
                 </ul>
             </li>
-            <li class="has-children">
-                <a href="#0" title="" class="">Blog</a>
-                <ul class="sub-menu">
-                    <li><a href="single-standard.html">Standard Post</a></li>
-                    <li><a href="single-video.html">Video Post</a></li>
-                    <li><a href="single-audio.html">Audio Post</a></li>
-                </ul>
+             <li class="">
+                <a href="https://wa.me/212666425235" title="" class="">Contactez-nous </a>
             </li>
-            <li><a href="styles.html" title="">Styles</a></li>
-            <li><a href="about.html" title="">About</a></li>
-            <li><a href="contact.html" title="">Contact</a></li>
         </ul>
     
     </nav>`;
