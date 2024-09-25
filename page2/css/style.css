@@ -9311,6 +9311,7 @@ textarea.form-control {
       height:300px;
       border:0;
     }
+    
     .blog-entry {
       margin-bottom: 30px; } }
   @media (max-width: 767.98px) {
@@ -9321,6 +9322,9 @@ textarea.form-control {
       width:300px;
       height:200px;
       border:0;
+    }
+    #email1 , #phone1{
+      font-size:82%;
     }
     .blog-entry {
       margin-bottom: 30px; } }

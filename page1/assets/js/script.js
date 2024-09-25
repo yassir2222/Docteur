@@ -48,10 +48,14 @@ window.addEventListener("scroll", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-  const text = "el jazouli oualid";
-  let index = 0;
-  const speed = 130; //milliseconds
+  const text = `el jazouli oualid`;
+ 
+  let index =0;
+
+  const speed = 150; //milliseconds
   const typewriterElement = document.getElementById("typewriter");
+
+  
 
   function typeWriter() {
       if (index < text.length) {
@@ -59,6 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
           index++;
           setTimeout(typeWriter, speed);
       }
+    
   }
 
   typeWriter();

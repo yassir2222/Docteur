@@ -1264,7 +1264,7 @@ address {
    * HERO
    */
 
-  .hero .container { max-width: 740px; }
+  .hero .container { max-width: 70%; }
 
 
 
@@ -1355,7 +1355,7 @@ address {
    * REUSED STYLE
    */
 
-  .container { max-width: 1180px; }
+  .container { max-width: 70%; }
 
 }
 
