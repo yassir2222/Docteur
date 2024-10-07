@@ -3,7 +3,7 @@ let str=`<nav class="s-header__nav-wrap">
         <h3 class="s-header__nav-heading">Naviguer vers</h3>
     
         <ul class="s-header__nav">
-            <li class="current-menu-item"><a href="../../index.html" title="">Accueil</a></li>
+            <li class="current-menu-item"><a href="../../../index.html" title="">Accueil</a></li>
             <li class="has-children">
                 <a href="#0" title="" class="">Épaule</a>
                 <ul class="sub-menu">

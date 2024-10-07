@@ -6,10 +6,10 @@ const footer=document.getElementById('colophon')
 const popUp=document.getElementById('modal')
 const main=document.getElementById('main-section')
 const header2=document.getElementById('header2')
-  
+let scrollPosition
 
-    
-    popUp.classList.add('hide')
+
+popUp.classList.add('hide')
     // Create an Intersection Observer
     let observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
@@ -26,6 +26,7 @@ const header2=document.getElementById('header2')
  
 function show (modalContent){
     modalContainer = document.getElementById(modalContent)
+    scrollPosition = window.scrollY;
     if (window.innerWidth <= 500) {
         header2.classList.add('hide')
     } 
@@ -74,5 +75,10 @@ function closeModal(){
     postN.classList.remove('hide')
     modalContainer.classList.remove('show-modal')
     popUp.classList.add('hide')
+
+    window.scrollTo({
+        top: scrollPosition,
+        behavior: 'smooth' // Add smooth scrolling
+    });
 }
 closeBtn.forEach(c => c.addEventListener('click', closeModal))
