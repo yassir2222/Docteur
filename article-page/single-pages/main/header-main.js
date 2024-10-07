@@ -51,6 +51,9 @@ let str=`<nav class="s-header__nav-wrap">
                     <li><a href="../genou/Arthrose-Genou-Gonarthrose.html">Arthrose Du Genou Ou Gonarthrose</a></li>
                     <li><a href="../genou/Pathologies-Ligamentaires.html">Pathologies Ligamentaires</a></li>
                     <li><a href="../genou/Pathologies-Meniscales.html">Pathologies Méniscales</a></li>
+                     <li><a href="../genou/Prothrse_totale_du_genou.html">Prothèse totale du genou</a></li>
+                    <li><a href="../genou/Ligamentoplastie_du_LCA.html">Ligamentoplastie du LCA</a></li>
+                    <li><a href="../genou/Chirurgie_meniscale_sous_arthroscopie.html">Chirurgie méniscale sous arthroscopie</a></li>
                 </ul>
             </li>
             <li class="has-children">

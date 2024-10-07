@@ -52,6 +52,8 @@ let str=`<nav class="s-header__nav-wrap">
                     <li><a href="Pathologies-Ligamentaires.html">Pathologies Ligamentaires</a></li>
                     <li><a href="Pathologies-Meniscales.html">Pathologies Méniscales</a></li>
                     <li><a href="Prothrse_totale_du_genou.html">Prothèse totale du genou</a></li>
+                    <li><a href="Ligamentoplastie_du_LCA.html">Ligamentoplastie du LCA</a></li>
+                    <li><a href="Chirurgie_meniscale_sous_arthroscopie.html">Chirurgie méniscale sous arthroscopie</a></li>
                 </ul>
             </li>
             <li class="has-children">
